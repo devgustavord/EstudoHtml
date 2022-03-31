@@ -51,13 +51,13 @@ nav ul li {
 /* ao passar o mouse sobre o link o fundo link deve
 alterar sua cor */
 nav ul li:hover {
-  background-color: slategrey;
+  background-color: lightgray;
 }
 
 nav ul li a {
   font-family: "jester";
   font-size: 13pt;
-  color: linen;
+  color: darkgray;
   /* retirar o underline do link */
   text-decoration: none; /*nenhum*/
 }
