@@ -28,16 +28,16 @@ header {
   padding-top: 50px;
 }
 h1 {
-  text-align: center;
-  font-family: "arial";
+  text-align: center; /* alinhamento do texto */
+  font-family: "Lucida Sans unicode";
   color: white;
   /* aplicar uma sombra no texto */
-  text-shadow: 10px 10px 7px black;
-  font-size: 50px;
+  text-shadow: 10px 10px 7px #1c1c1c;
+  font-size: 40px;
 }
 
 nav {
-  background-color: grey;
+  background-color: #1c1c1c;
   text-align: center;
 }
 
@@ -55,16 +55,16 @@ nav ul li:hover {
 }
 
 nav ul li a {
-  font-family: "jester";
+  font-family: "Lucida Sans unicode";
   font-size: 13pt;
-  color: darkgray;
+  color: white;
   /* retirar o underline do link */
   text-decoration: none; /*nenhum*/
 }
 
 footer {
   height: 280px; /*altura em 280px*/
-  background-color: grey;
+  background-color: #1c1c1c;
   color: white;
   font-family: "jester";
   padding-top: 50px;
@@ -120,4 +120,36 @@ h2 {
   transform: scale(1.05);
   opacity: 1;
   transition: ease 1s;
+}
+/* ---------------- Fim do estilo da home ---------------- */
+
+/* ---------------- Início do estilo da história ---------------- */
+#historia p {
+  width: 70%;
+  font-family: "Lucida Sans Unicode";
+  font-size: 12pt;
+  line-height: 18pt;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imgHistoria {
+  text-align: center;
+}
+#imgHistoria img {
+  width: 550px;
+  height: 550px;
+  margin: 20px;
+  border-radius: 100px;
+}
+#imgHistoria img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  transition: ease 2s;
+}
+iframe {
+  width: 97%;
+  height: 300px;
+  margin: 20px;
 }
