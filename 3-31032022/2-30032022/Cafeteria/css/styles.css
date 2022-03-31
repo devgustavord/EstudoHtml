@@ -85,3 +85,39 @@ footer div {
   width: 50px;
   height: 50px;
 }
+/* -------------- Início do css da home -------------- */
+h2 {
+  font-family: "arial";
+  font-size: 20pt;
+  margin: 20px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+#home p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia;
+  font-size: 12pt;
+  line-height: 16pt;
+  text-align: justify;
+}
+
+#imgHome {
+  text-align: center;
+}
+#imgHome img {
+  width: 620px;
+  height: 620px;
+  margin: 10px;
+  border-radius: 100px;
+  transition: ease 0.5s;
+  /* mudar o ponteiro do mouse para uma mão */
+  cursor: pointer;
+}
+#imgHome img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  transition: ease 1s;
+}
