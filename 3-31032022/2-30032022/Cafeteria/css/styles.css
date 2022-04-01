@@ -238,3 +238,10 @@ main form input[type="submit"] {
   color: #1c1c1c;
   margin-left: 90%;
 }
+/* ---------------------- Fim da Página Contato ---------------------- */
+
+/* ---------------------- Início da localização ---------------------- */
+#mapa iframe {
+  width: 97%;
+  height: 500px;
+}
