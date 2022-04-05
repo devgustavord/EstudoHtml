@@ -16,10 +16,12 @@
 -->
 
 <header>
+    <a href="#" onclick="abrir()">&#9776;</a>
     <h1>Rene's Café</h1>
 </header>
 
 <nav>
+    <a href="#" id="fechar" onclick="fechar()">&times; </a>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="historia.html">História</a></li>
@@ -30,9 +32,7 @@
 </nav>
 
 <main>
-
     <h2>Conheça a Nossa História</h2>
-
     <div id="historia">
         <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium id consequatur aperiam dolor fugiat soluta esse exercitationem quae similique corporis, odit provident magni quibusdam quo placeat dignissimos magnam officia.</span><span>Voluptatibus quasi voluptas possimus pariatur, reiciendis tenetur aliquid minus nisi soluta debitis sunt vel fugit aut sint quisquam at facere, perspiciatis laudantium, tempora architecto totam quaerat. Quasi ipsum laborum repellat.</span></p>
     </div>
@@ -47,7 +47,6 @@
     <div id="historia">
         <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium id consequatur aperiam dolor fugiat soluta esse exercitationem quae similique corporis, odit provident magni quibusdam quo placeat dignissimos magnam officia.</span><span>Voluptatibus quasi voluptas possimus pariatur, reiciendis tenetur aliquid minus nisi soluta debitis sunt vel fugit aut sint quisquam at facere, perspiciatis laudantium, tempora architecto totam quaerat. Quasi ipsum laborum repellat.</span></p>
     </div>
-
     <iframe src="https://www.youtube.com/embed/Xw4q7f1CVsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </main>
@@ -71,6 +70,15 @@
         
 </footer>
 
+<script>
+    function abrir(){
+        document.getElementsByTagName("nav")[0].style.left="0px";
+    }
+
+    function fechar(){
+        document.getElementsByTagName("nav")[0].style.left="-150px";
+    }
+</script>
 
 </body>
 </html>

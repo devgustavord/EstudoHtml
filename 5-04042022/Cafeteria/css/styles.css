@@ -27,6 +27,13 @@ header {
   transition: ease 1s;
   padding-top: 50px;
 }
+
+header a,
+#fechar {
+  opacity: 0;
+  transition: ease 0.5s;
+}
+
 h1 {
   text-align: center; /* alinhamento do texto */
   font-family: "Lucida Sans unicode";
@@ -39,6 +46,7 @@ h1 {
 nav {
   background-color: #1c1c1c;
   text-align: center;
+  transition: ease 0.5s;
 }
 
 nav ul li {
@@ -236,7 +244,7 @@ main form input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
   color: #1c1c1c;
-  margin-left: 90%;
+  margin-left: 80%;
 }
 /* ---------------------- Fim da Página Contato ---------------------- */
 
@@ -275,6 +283,15 @@ main form input[type="submit"] {
     border-radius: 100px;
     transition: ease 0.5s;
   }
+  #imgHistoria {
+    text-align: center;
+  }
+  #imgHistoria img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    transition: ease 0.5s;
+  }
   footer {
     flex-direction: column;
   }
@@ -282,8 +299,48 @@ main form input[type="submit"] {
     width: 80%;
     margin: auto;
   }
+  header a {
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15pt;
+    border-radius: 5px;
+  }
+  #fechar {
+    opacity: 1;
+    color: #fff;
+    font-size: 30pt;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-decoration: none;
+    transform: rotate(180deg);
+  }
+  iframe {
+    width: 90%;
+  }
+  #linha {
+    flex-direction: column;
+  }
+  #linha div {
+    width: 95%;
+  }
+  main form {
+    width: 90%;
+  }
+  main form select {
+    width: 68%;
+  }
+  #mapa iframe {
+    width: 90%;
+  }
   body {
-    background-color: #d84315;
+    background-color: #c9c9c9;
   }
 }
 
