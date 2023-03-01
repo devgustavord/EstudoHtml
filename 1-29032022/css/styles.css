@@ -5,6 +5,13 @@ páginas criam a estrutura de um site, o css, por sua vez, realiza
 a formatação do conteúdo em html
 */
 
+.teste{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
 h1 {
   font-family: arial; /*tipo de letra*/
   font-size: 15pt; /*O tamanho da letra. pt ->pontos|mesmo do word*/
